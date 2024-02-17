@@ -1,0 +1,15 @@
+git init (para inicar git en nuestro repositorio local)
+git config user.name (Nombre de usuario github)
+git config user.email(Email de github)
+git config user password(Tokens)
+git remote add origin(puedes ser otra cosa pero es lo mas comun) link del ropositorio remoto
+git add . (Para agregar todos archivos a la rama donde estamos trabajando)
+git commit -m (si se quiere un comentario) se agreagar a la rama pero no estan confirmados
+git push -u origin(nombre que le dimos al agregar el repositorio) master(a la rama donde se van a agregar)(para confirmar los cambios)
+git branch(Vemos en la rama que estamos trabajando y las que hay disponibles)
+git branch nueva(Es el nombre de rama que queremos agregar)
+git branch -m nueva nueva1 (para combiar de nombre)
+git checkout nombre(rama en la que queremos trabajar)
+git diff rama1 rama2 (Es para comparar que hay en cada rama)
+git merge rama1 rama2 (importante estar en la rama mas desactualizada y este comando lo que hace es unificar ambas ramas)
+git touch (Para crear un archivo)
